@@ -56,10 +56,10 @@ struct {
     const char* const prefix;
 } locations[] = {
         // Tethering mainline module
-        {
-                .dir = "/apex/com.android.tethering/etc/bpf/",
-                .prefix = "tethering/",
-        },
+//        {
+//                .dir = "/apex/com.android.tethering/etc/bpf/",
+//                .prefix = "tethering/",
+//        },
         // Core operating system
         {
                 .dir = "/system/etc/bpf/",
