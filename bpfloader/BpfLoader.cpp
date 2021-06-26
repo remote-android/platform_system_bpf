@@ -194,8 +194,10 @@ int main(int argc, char** argv) {
             ALOGE("If this triggers randomly, you might be hitting some memory allocation "
                   "problems or startup script race.");
             ALOGE("--- DO NOT EXPECT SYSTEM TO BOOT SUCCESSFULLY ---");
+#if 0 // HACKED
             sleep(20);
             return 2;
+#endif
         }
     }
 
